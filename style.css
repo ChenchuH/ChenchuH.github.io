@@ -8,17 +8,19 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 /* Let the main content take up available space */
 main {
   flex: 1;
+  text-align: center;
 }
 
 /* Footer styling */
 footer {
   text-align: center;
   padding: 1em;
-  background: #0077cc;
+  background: #00233b;
   color: white;
 }
