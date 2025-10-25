@@ -15,21 +15,22 @@ html, body {
 
 /* ===== Center content area ===== */
 .page-center {
-  flex: 1; /* pushes footer down */
+  flex:1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  padding-top: 6rem;
+  gap: 1.5rem;
 }
 
 /* ===== Box styling ===== */
 .page-box {
   background: #b4b4b4bf;
   border-radius: 16px;
-  padding: 2.5rem 2rem;
-  width: 60%;
-  max-width: 800px;
+  padding: 2rem;
+  width: 900px;
   text-align: center;
+
 }
 
 /* ===== Typography ===== */
